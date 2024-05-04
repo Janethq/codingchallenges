@@ -9,9 +9,9 @@ addOne(-5) //=> -4
 -----------------------------------------------------------------*/
 // Your solution for 01-addOne here:
 
-const addOne = (num) =>{
-  return num+=1
-}
+const addOne = (num) => {
+  return (num += 1);
+};
 
-console.log(addOne(1))
+console.log(addOne(1));
 console.log(addOne(-5));
