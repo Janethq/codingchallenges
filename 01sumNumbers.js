@@ -1,5 +1,17 @@
-// sumNumbers
-// Prompt:
+/*-----------------------------------------------------------------
+Challenge: 01-addOne
+Difficulty: Basic
+Prompt:
+Write a function called addOne that takes a single number as an argument and returns that number plus 1.
+Examples:
+addOne(1) //=> 2
+addOne(-5) //=> -4
+-----------------------------------------------------------------*/
+// Your solution for 01-addOne here:
 
-// Write a function called sumNumbers that accepts a single array of numbers and returns the sum of the numbers in the array.
-// If the array is empty, return 0 (zero).
+const addOne = (num) =>{
+  return num+=1
+}
+
+console.log(addOne(1))
+console.log(addOne(-5));
