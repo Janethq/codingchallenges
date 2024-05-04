@@ -16,11 +16,13 @@ const sumNumbers = (arr) => {
   if (arr.length === 0) {
     return 0;
   }
+  //initialise before loop so sum can accumulate at each loop-run
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
     //increment by arr number
     sum += arr[i];
   }
+  //only return the sum after the loop finish iterating over all the elements
   return sum;
 };
 
